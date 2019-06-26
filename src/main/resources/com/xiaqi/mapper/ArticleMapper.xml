@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaqi.mapper.ArticleMapper">
+  <resultMap id="BaseResultMap" type="com.xiaqi.entity.Article">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="userId" jdbcType="BIGINT" property="userId" />
+    <result column="createTime" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="lastModifiedTime" jdbcType="TIMESTAMP" property="lastModifiedTime" />
+    <result column="lastPublishTime" jdbcType="TIMESTAMP" property="lastPublishTime" />
+    <result column="viewTimes" jdbcType="INTEGER" property="viewTimes" />
+    <result column="awesome" jdbcType="INTEGER" property="awesome" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="subTitle" jdbcType="VARCHAR" property="subTitle" />
+    <result column="introduction" jdbcType="VARCHAR" property="introduction" />
+    <result column="isPrivate" jdbcType="TINYINT" property="isPrivate" />
+    <result column="image" jdbcType="VARCHAR" property="image" />
+    <result column="catagoryId" jdbcType="BIGINT" property="catagoryId" />
+    <result column="isHot" jdbcType="TINYINT" property="isHot" />
+    <result column="isTop" jdbcType="TINYINT" property="isTop" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.xiaqi.entity.Article">
+    <result column="content" jdbcType="LONGVARCHAR" property="content" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, userId, createTime, lastModifiedTime, lastPublishTime, viewTimes, awesome, title, 
+    subTitle, introduction, isPrivate, image, catagoryId, isHot, isTop
+  </sql>
+  <sql id="Blob_Column_List">
+    content
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from article
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from article
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.xiaqi.entity.Article">
+    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Long">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into article (userId, createTime, lastModifiedTime, 
+      lastPublishTime, viewTimes, awesome, 
+      title, subTitle, introduction, 
+      isPrivate, image, catagoryId, 
+      isHot, isTop, content
+      )
+    values (#{userId,jdbcType=BIGINT}, #{createTime,jdbcType=TIMESTAMP}, #{lastModifiedTime,jdbcType=TIMESTAMP}, 
+      #{lastPublishTime,jdbcType=TIMESTAMP}, #{viewTimes,jdbcType=INTEGER}, #{awesome,jdbcType=INTEGER}, 
+      #{title,jdbcType=VARCHAR}, #{subTitle,jdbcType=VARCHAR}, #{introduction,jdbcType=VARCHAR}, 
+      #{isPrivate,jdbcType=TINYINT}, #{image,jdbcType=VARCHAR}, #{catagoryId,jdbcType=BIGINT}, 
+      #{isHot,jdbcType=TINYINT}, #{isTop,jdbcType=TINYINT}, #{content,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.xiaqi.entity.Article">
+    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Long">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into article
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        userId,
+      </if>
+      <if test="createTime != null">
+        createTime,
+      </if>
+      <if test="lastModifiedTime != null">
+        lastModifiedTime,
+      </if>
+      <if test="lastPublishTime != null">
+        lastPublishTime,
+      </if>
+      <if test="viewTimes != null">
+        viewTimes,
+      </if>
+      <if test="awesome != null">
+        awesome,
+      </if>
+      <if test="title != null">
+        title,
+      </if>
+      <if test="subTitle != null">
+        subTitle,
+      </if>
+      <if test="introduction != null">
+        introduction,
+      </if>
+      <if test="isPrivate != null">
+        isPrivate,
+      </if>
+      <if test="image != null">
+        image,
+      </if>
+      <if test="catagoryId != null">
+        catagoryId,
+      </if>
+      <if test="isHot != null">
+        isHot,
+      </if>
+      <if test="isTop != null">
+        isTop,
+      </if>
+      <if test="content != null">
+        content,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lastModifiedTime != null">
+        #{lastModifiedTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lastPublishTime != null">
+        #{lastPublishTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="viewTimes != null">
+        #{viewTimes,jdbcType=INTEGER},
+      </if>
+      <if test="awesome != null">
+        #{awesome,jdbcType=INTEGER},
+      </if>
+      <if test="title != null">
+        #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="subTitle != null">
+        #{subTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="introduction != null">
+        #{introduction,jdbcType=VARCHAR},
+      </if>
+      <if test="isPrivate != null">
+        #{isPrivate,jdbcType=TINYINT},
+      </if>
+      <if test="image != null">
+        #{image,jdbcType=VARCHAR},
+      </if>
+      <if test="catagoryId != null">
+        #{catagoryId,jdbcType=BIGINT},
+      </if>
+      <if test="isHot != null">
+        #{isHot,jdbcType=TINYINT},
+      </if>
+      <if test="isTop != null">
+        #{isTop,jdbcType=TINYINT},
+      </if>
+      <if test="content != null">
+        #{content,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.xiaqi.entity.Article">
+    update article
+    <set>
+      <if test="userId != null">
+        userId = #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="createTime != null">
+        createTime = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lastModifiedTime != null">
+        lastModifiedTime = #{lastModifiedTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lastPublishTime != null">
+        lastPublishTime = #{lastPublishTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="viewTimes != null">
+        viewTimes = #{viewTimes,jdbcType=INTEGER},
+      </if>
+      <if test="awesome != null">
+        awesome = #{awesome,jdbcType=INTEGER},
+      </if>
+      <if test="title != null">
+        title = #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="subTitle != null">
+        subTitle = #{subTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="introduction != null">
+        introduction = #{introduction,jdbcType=VARCHAR},
+      </if>
+      <if test="isPrivate != null">
+        isPrivate = #{isPrivate,jdbcType=TINYINT},
+      </if>
+      <if test="image != null">
+        image = #{image,jdbcType=VARCHAR},
+      </if>
+      <if test="catagoryId != null">
+        catagoryId = #{catagoryId,jdbcType=BIGINT},
+      </if>
+      <if test="isHot != null">
+        isHot = #{isHot,jdbcType=TINYINT},
+      </if>
+      <if test="isTop != null">
+        isTop = #{isTop,jdbcType=TINYINT},
+      </if>
+      <if test="content != null">
+        content = #{content,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.xiaqi.entity.Article">
+    update article
+    set userId = #{userId,jdbcType=BIGINT},
+      createTime = #{createTime,jdbcType=TIMESTAMP},
+      lastModifiedTime = #{lastModifiedTime,jdbcType=TIMESTAMP},
+      lastPublishTime = #{lastPublishTime,jdbcType=TIMESTAMP},
+      viewTimes = #{viewTimes,jdbcType=INTEGER},
+      awesome = #{awesome,jdbcType=INTEGER},
+      title = #{title,jdbcType=VARCHAR},
+      subTitle = #{subTitle,jdbcType=VARCHAR},
+      introduction = #{introduction,jdbcType=VARCHAR},
+      isPrivate = #{isPrivate,jdbcType=TINYINT},
+      image = #{image,jdbcType=VARCHAR},
+      catagoryId = #{catagoryId,jdbcType=BIGINT},
+      isHot = #{isHot,jdbcType=TINYINT},
+      isTop = #{isTop,jdbcType=TINYINT},
+      content = #{content,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.xiaqi.entity.Article">
+    update article
+    set userId = #{userId,jdbcType=BIGINT},
+      createTime = #{createTime,jdbcType=TIMESTAMP},
+      lastModifiedTime = #{lastModifiedTime,jdbcType=TIMESTAMP},
+      lastPublishTime = #{lastPublishTime,jdbcType=TIMESTAMP},
+      viewTimes = #{viewTimes,jdbcType=INTEGER},
+      awesome = #{awesome,jdbcType=INTEGER},
+      title = #{title,jdbcType=VARCHAR},
+      subTitle = #{subTitle,jdbcType=VARCHAR},
+      introduction = #{introduction,jdbcType=VARCHAR},
+      isPrivate = #{isPrivate,jdbcType=TINYINT},
+      image = #{image,jdbcType=VARCHAR},
+      catagoryId = #{catagoryId,jdbcType=BIGINT},
+      isHot = #{isHot,jdbcType=TINYINT},
+      isTop = #{isTop,jdbcType=TINYINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

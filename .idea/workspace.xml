@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="af97c175-48ee-4cd8-9a27-06e40179c514" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestMybatisSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestMybatisSpring.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,7 +33,7 @@
     <session id="-638351172">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.19" value="1" />
@@ -39,57 +41,76 @@
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.40" value="2" />
           <entry key="project.open.time.44" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1478" />
+          <entry key="java" value="1597" />
           <entry key="md" value="29" />
           <entry key="properties" value="152" />
-          <entry key="xml" value="868" />
+          <entry key="xml" value="878" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1478" />
+          <entry key="JAVA" value="1597" />
           <entry key="Markdown" value="29" />
           <entry key="Properties" value="152" />
           <entry key="SQL" value="1" />
-          <entry key="XML" value="867" />
+          <entry key="XML" value="877" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MD" value="1" />
           <entry key="class" value="5" />
-          <entry key="java" value="48" />
+          <entry key="java" value="57" />
           <entry key="properties" value="8" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="25" />
+          <entry key="xml" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="48" />
+          <entry key="JAVA" value="57" />
           <entry key="Markdown" value="1" />
           <entry key="Properties" value="8" />
           <entry key="SQL" value="1" />
-          <entry key="XML" value="25" />
+          <entry key="XML" value="29" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="131" column="24" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
+            <state relative-caret-position="140">
+              <caret line="134" column="59" lean-forward="true" selection-start-line="134" selection-start-column="59" selection-end-line="134" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestMybatisSpring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -126,15 +147,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/eneity/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/Test.java" />
         <option value="$PROJECT_DIR$/mybatis-generator.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestMybatisSpring.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/Solution.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestMybatisSpring.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
       </list>
     </option>
   </component>
@@ -193,6 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -232,18 +254,7 @@
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaqi" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaqi" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
@@ -251,6 +262,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
@@ -272,22 +284,17 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561303823507" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561562057181" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -317,7 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="JUnit.TestMybatisSpring.testSelect">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xiaqi.test.Solution" />
       <module name="myblog" />
@@ -404,9 +411,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.TestMybatisSpring.testSelect" />
         <item itemvalue="JUnit.TestMybatisSpring.testUpdate" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.TestMybatisSpring.testInsert" />
         <item itemvalue="JUnit.TestMybatisSpring.test" />
       </list>
@@ -431,32 +438,12 @@
       <workItem from="1561179660195" duration="5152000" />
       <workItem from="1561269810941" duration="2440000" />
       <workItem from="1561389047476" duration="1378000" />
-      <workItem from="1561477320663" duration="524000" />
+      <workItem from="1561477320663" duration="783000" />
+      <workItem from="1561520110444" duration="6225000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMybatisSpring_testUpdate - 2019.06.22 at 00h 21m 09s.xml">
-      <configuration name="TestMybatisSpring.testUpdate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMybatisSpring_testSelect - 2019.06.22 at 22h 04m 15s.xml">
-      <configuration name="TestMybatisSpring.testSelect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMybatisSpring_testSelect - 2019.06.22 at 22h 06m 25s.xml">
-      <configuration name="TestMybatisSpring.testSelect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMybatisSpring_testSelect - 2019.06.22 at 22h 11m 15s.xml">
-      <configuration name="TestMybatisSpring.testSelect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMybatisSpring_testSelect - 2019.06.22 at 22h 11m 46s.xml">
-      <configuration name="TestMybatisSpring.testSelect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMybatisSpring_testSelect - 2019.06.22 at 22h 29m 03s.xml">
-      <configuration name="TestMybatisSpring.testSelect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMybatisSpring_testSelect - 2019.06.22 at 22h 30m 11s.xml">
-      <configuration name="TestMybatisSpring.testSelect" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestMybatisSpring_testSelect - 2019.06.22 at 22h 30m 49s.xml">
       <configuration name="TestMybatisSpring.testSelect" configurationId="JUnit" />
     </history-entry>
@@ -466,15 +453,36 @@
     <history-entry file="TestMybatisSpring_testSelect - 2019.06.22 at 22h 49m 05s.xml">
       <configuration name="TestMybatisSpring.testSelect" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestMybatisSpring_testUpdate - 2019.06.26 at 12h 18m 33s.xml">
+      <configuration name="TestMybatisSpring.testUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMybatisSpring_testUpdate - 2019.06.26 at 12h 24m 09s.xml">
+      <configuration name="TestMybatisSpring.testUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMybatisSpring_testUpdate - 2019.06.26 at 12h 24m 27s.xml">
+      <configuration name="TestMybatisSpring.testUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMybatisSpring_testUpdate - 2019.06.26 at 12h 42m 01s.xml">
+      <configuration name="TestMybatisSpring.testUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMybatisSpring_testUpdate - 2019.06.26 at 12h 43m 23s.xml">
+      <configuration name="TestMybatisSpring.testUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMybatisSpring_testUpdate - 2019.06.26 at 17h 28m 19s.xml">
+      <configuration name="TestMybatisSpring.testUpdate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMybatisSpring_testUpdate - 2019.06.26 at 17h 28m 41s.xml">
+      <configuration name="TestMybatisSpring.testUpdate" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26826000" />
+    <option name="totallyTimeSpent" value="33310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22919819" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23298033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -484,12 +492,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33601287" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3488746" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39871383" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35369775" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4790997" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.329582" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.47106108" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -518,13 +526,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -734,13 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="110" selection-start-line="30" selection-start-column="110" selection-end-line="30" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -790,25 +784,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="105" column="34" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131">
+          <caret line="576" column="40" selection-start-line="576" selection-start-column="40" selection-end-line="576" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="305" column="24" lean-forward="true" selection-start-line="305" selection-start-column="24" selection-end-line="305" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="58" column="27" lean-forward="true" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+          <folding>
+            <element signature="e#1464#1658#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+            <element signature="e#1764#1765#0" expanded="true" />
+            <element signature="e#1803#1804#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="3576" column="73" lean-forward="true" selection-start-line="3576" selection-start-column="23" selection-end-line="3576" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-620">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/ArticleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/ArticleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="140">
           <caret line="134" column="59" lean-forward="true" selection-start-line="134" selection-start-column="59" selection-end-line="134" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestMybatisSpring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/Solution.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="131" column="24" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
+        <state relative-caret-position="558">
+          <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
         </state>
       </provider>
     </entry>

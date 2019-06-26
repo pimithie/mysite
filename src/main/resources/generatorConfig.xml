@@ -44,5 +44,13 @@
             <generatedKey column="id" sqlStatement="MySql" identity="true" />
         </table>
 
+        <table schema="myblog" tableName="article" domainObjectName="Article"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+            <property name="useActualColumnNames" value="true"/>
+            <generatedKey column="id" sqlStatement="MySql" identity="true" />
+        </table>
+
     </context>
 </generatorConfiguration>
