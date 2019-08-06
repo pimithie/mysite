@@ -26,11 +26,6 @@
         <property name="password" value="${jdbc.password}"/>
     </bean>
 
-    <!--<bean name="UserMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">-->
-        <!--<property name="mapperInterface" value="com.xiaqi.mapper.UserMapper"/>-->
-        <!--<property name="sqlSessionFactory" ref="sqlSessionFactory"/>-->
-    <!--</bean>-->
-
     <mybatis:scan base-package="com.xiaqi.mapper"/>
 
 </beans>
