@@ -1,6 +1,7 @@
 package com.xiaqi.mapper;
 
 import com.xiaqi.entity.User;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -19,4 +20,9 @@ public interface UserMapper {
     int updateByPrimaryKeySelective(User record);
 
     int updateByPrimaryKey(User record);
+
+    List<User> getUsersByUsername(String username);
+
+    User getUserByUsernameAndPassword(@Param("username") String username,
+                                      @Param("password") String password);
 }

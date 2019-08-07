@@ -1,134 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.xiaqi.mapper.UserMapper">
-  <resultMap id="BaseResultMap" type="com.xiaqi.entity.User">
-    <id column="id" jdbcType="INTEGER" property="id" />
-    <result column="username" jdbcType="VARCHAR" property="username" />
-    <result column="password" jdbcType="VARCHAR" property="password" />
-    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
-    <result column="headPicture" jdbcType="VARCHAR" property="headPicture" />
-    <result column="personalSignature" jdbcType="VARCHAR" property="personalSignature" />
-    <result column="currentResidence" jdbcType="VARCHAR" property="currentResidence" />
-    <result column="birthday" jdbcType="DATE" property="birthday" />
-  </resultMap>
-  <sql id="Base_Column_List">
-    id, username, password, nickname, headPicture, personalSignature, currentResidence, 
-    birthday
-  </sql>
-  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
-    select 
-    <include refid="Base_Column_List" />
-    from user
-    where id = #{id,jdbcType=INTEGER}
-  </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
-    delete from user
-    where id = #{id,jdbcType=INTEGER}
-  </delete>
-  <insert id="insert" parameterType="com.xiaqi.entity.User">
-    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
-      SELECT LAST_INSERT_ID()
-    </selectKey>
-    insert into user (username, password, nickname, 
-      headPicture, personalSignature, currentResidence, 
-      birthday)
-    values (#{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, #{nickname,jdbcType=VARCHAR}, 
-      #{headPicture,jdbcType=VARCHAR}, #{personalSignature,jdbcType=VARCHAR}, #{currentResidence,jdbcType=VARCHAR}, 
-      #{birthday,jdbcType=DATE})
-  </insert>
-  <insert id="insertSelective" parameterType="com.xiaqi.entity.User">
-    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
-      SELECT LAST_INSERT_ID()
-    </selectKey>
-    insert into user
-    <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="username != null">
-        username,
-      </if>
-      <if test="password != null">
-        password,
-      </if>
-      <if test="nickname != null">
-        nickname,
-      </if>
-      <if test="headPicture != null">
-        headPicture,
-      </if>
-      <if test="personalSignature != null">
-        personalSignature,
-      </if>
-      <if test="currentResidence != null">
-        currentResidence,
-      </if>
-      <if test="birthday != null">
-        birthday,
-      </if>
-    </trim>
-    <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="username != null">
-        #{username,jdbcType=VARCHAR},
-      </if>
-      <if test="password != null">
-        #{password,jdbcType=VARCHAR},
-      </if>
-      <if test="nickname != null">
-        #{nickname,jdbcType=VARCHAR},
-      </if>
-      <if test="headPicture != null">
-        #{headPicture,jdbcType=VARCHAR},
-      </if>
-      <if test="personalSignature != null">
-        #{personalSignature,jdbcType=VARCHAR},
-      </if>
-      <if test="currentResidence != null">
-        #{currentResidence,jdbcType=VARCHAR},
-      </if>
-      <if test="birthday != null">
-        #{birthday,jdbcType=DATE},
-      </if>
-    </trim>
-  </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.xiaqi.entity.User">
-    update user
-    <set>
-      <if test="username != null">
-        username = #{username,jdbcType=VARCHAR},
-      </if>
-      <if test="password != null">
-        password = #{password,jdbcType=VARCHAR},
-      </if>
-      <if test="nickname != null">
-        nickname = #{nickname,jdbcType=VARCHAR},
-      </if>
-      <if test="headPicture != null">
-        headPicture = #{headPicture,jdbcType=VARCHAR},
-      </if>
-      <if test="personalSignature != null">
-        personalSignature = #{personalSignature,jdbcType=VARCHAR},
-      </if>
-      <if test="currentResidence != null">
-        currentResidence = #{currentResidence,jdbcType=VARCHAR},
-      </if>
-      <if test="birthday != null">
-        birthday = #{birthday,jdbcType=DATE},
-      </if>
-    </set>
-    where id = #{id,jdbcType=INTEGER}
-  </update>
-  <update id="updateByPrimaryKey" parameterType="com.xiaqi.entity.User">
-    update user
-    set username = #{username,jdbcType=VARCHAR},
-      password = #{password,jdbcType=VARCHAR},
-      nickname = #{nickname,jdbcType=VARCHAR},
-      headPicture = #{headPicture,jdbcType=VARCHAR},
-      personalSignature = #{personalSignature,jdbcType=VARCHAR},
-      currentResidence = #{currentResidence,jdbcType=VARCHAR},
-      birthday = #{birthday,jdbcType=DATE}
-    where id = #{id,jdbcType=INTEGER}
-  </update>
+    <resultMap id="BaseResultMap" type="com.xiaqi.entity.User">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="username" jdbcType="VARCHAR" property="username"/>
+        <result column="password" jdbcType="VARCHAR" property="password"/>
+        <result column="nickname" jdbcType="VARCHAR" property="nickname"/>
+        <result column="headPicture" jdbcType="VARCHAR" property="headPicture"/>
+        <result column="personalSignature" jdbcType="VARCHAR" property="personalSignature"/>
+        <result column="currentResidence" jdbcType="VARCHAR" property="currentResidence"/>
+        <result column="birthday" jdbcType="DATE" property="birthday"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, username, password, nickname, headPicture, personalSignature, currentResidence,
+        birthday
+    </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from user
+        where id = #{id,jdbcType=INTEGER}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        delete
+        from user
+        where id = #{id,jdbcType=INTEGER}
+    </delete>
+    <insert id="insert" parameterType="com.xiaqi.entity.User">
+        <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+        insert into user (username, password, nickname,
+        headPicture, personalSignature, currentResidence,
+        birthday)
+        values (#{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, #{nickname,jdbcType=VARCHAR},
+        #{headPicture,jdbcType=VARCHAR}, #{personalSignature,jdbcType=VARCHAR}, #{currentResidence,jdbcType=VARCHAR},
+        #{birthday,jdbcType=DATE})
+    </insert>
+    <insert id="insertSelective" parameterType="com.xiaqi.entity.User">
+        <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+        insert into user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="username != null">
+                username,
+            </if>
+            <if test="password != null">
+                password,
+            </if>
+            <if test="nickname != null">
+                nickname,
+            </if>
+            <if test="headPicture != null">
+                headPicture,
+            </if>
+            <if test="personalSignature != null">
+                personalSignature,
+            </if>
+            <if test="currentResidence != null">
+                currentResidence,
+            </if>
+            <if test="birthday != null">
+                birthday,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="username != null">
+                #{username,jdbcType=VARCHAR},
+            </if>
+            <if test="password != null">
+                #{password,jdbcType=VARCHAR},
+            </if>
+            <if test="nickname != null">
+                #{nickname,jdbcType=VARCHAR},
+            </if>
+            <if test="headPicture != null">
+                #{headPicture,jdbcType=VARCHAR},
+            </if>
+            <if test="personalSignature != null">
+                #{personalSignature,jdbcType=VARCHAR},
+            </if>
+            <if test="currentResidence != null">
+                #{currentResidence,jdbcType=VARCHAR},
+            </if>
+            <if test="birthday != null">
+                #{birthday,jdbcType=DATE},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.xiaqi.entity.User">
+        update user
+        <set>
+            <if test="username != null">
+                username = #{username,jdbcType=VARCHAR},
+            </if>
+            <if test="password != null">
+                password = #{password,jdbcType=VARCHAR},
+            </if>
+            <if test="nickname != null">
+                nickname = #{nickname,jdbcType=VARCHAR},
+            </if>
+            <if test="headPicture != null">
+                headPicture = #{headPicture,jdbcType=VARCHAR},
+            </if>
+            <if test="personalSignature != null">
+                personalSignature = #{personalSignature,jdbcType=VARCHAR},
+            </if>
+            <if test="currentResidence != null">
+                currentResidence = #{currentResidence,jdbcType=VARCHAR},
+            </if>
+            <if test="birthday != null">
+                birthday = #{birthday,jdbcType=DATE},
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.xiaqi.entity.User">
+        update user
+        set username          = #{username,jdbcType=VARCHAR},
+            password          = #{password,jdbcType=VARCHAR},
+            nickname          = #{nickname,jdbcType=VARCHAR},
+            headPicture       = #{headPicture,jdbcType=VARCHAR},
+            personalSignature = #{personalSignature,jdbcType=VARCHAR},
+            currentResidence  = #{currentResidence,jdbcType=VARCHAR},
+            birthday          = #{birthday,jdbcType=DATE}
+        where id = #{id,jdbcType=INTEGER}
+    </update>
 
-  <select id="findAll" resultType="com.xiaqi.entity.User">
-    select * from user
-  </select>
+    <select id="findAll" resultType="com.xiaqi.entity.User">
+        select *
+        from user
+    </select>
+
+    <select id="getUsersByUsername" resultType="com.xiaqi.entity.User" parameterType="string">
+      select <include refid="Base_Column_List"/>
+      from user
+      where username = #{username};
+    </select>
+
+    <select id="getUserByUsernameAndPassword" resultType="com.xiaqi.entity.User">
+        select <include refid="Base_Column_List"/>
+        from user
+        where username = #{username} and password = #{password}
+    </select>
 
 </mapper>
