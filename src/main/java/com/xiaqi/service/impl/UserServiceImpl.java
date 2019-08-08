@@ -7,6 +7,8 @@ import com.xiaqi.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * 用户服务类的实现
  * @author xiaqi
@@ -39,7 +41,18 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public Message getUserByUsername(String username) {
-        return null;
+        Message message  = new Message();
+        try {
+            List<User> users = userMapper.getUsersByUsername(username);
+            message.setCode(200);
+            message.setData(users);
+            message.setMessage("更新用户信息成功");
+            return message;
+        } catch (Exception e) {
+            message.setCode(500);
+            message.setMessage("服务器错误");
+            return message;
+        }
     }
 
     @Override
@@ -48,6 +61,22 @@ public class UserServiceImpl implements UserService {
         try {
             userMapper.updateByPrimaryKeySelective(user);
             message.setCode(200);
+            message.setMessage("更新用户信息成功");
+            return message;
+        } catch (Exception e) {
+            message.setCode(500);
+            message.setMessage("服务器错误");
+            return message;
+        }
+    }
+
+    @Override
+    public Message getAllUsers() {
+        Message message  = new Message();
+        try {
+            List<User> users = userMapper.findAll();
+            message.setCode(200);
+            message.setData(users);
             message.setMessage("更新用户信息成功");
             return message;
         } catch (Exception e) {

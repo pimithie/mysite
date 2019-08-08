@@ -29,4 +29,10 @@ public interface UserService {
      * @return 服务器响应实体
      */
     Message updateUserInfo(User user);
+
+    /**
+     * 获取所有的用户信息
+     * @return 服务器响应实体
+     */
+    Message getAllUsers();
 }

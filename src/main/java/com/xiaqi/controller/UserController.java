@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
+ * 用户控制器
  * @author xiaqi
  * @date 2019/8/7
  */
@@ -21,6 +22,11 @@ public class UserController {
     @RequestMapping("/login")
     public Message login(User user) {
         return userService.login(user);
+    }
+
+    @RequestMapping("/getAllUsers")
+    public Message getAllUsers() {
+        return userService.getAllUsers();
     }
 
 }
