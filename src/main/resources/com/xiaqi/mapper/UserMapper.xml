@@ -37,58 +37,6 @@
         #{headPicture,jdbcType=VARCHAR}, #{personalSignature,jdbcType=VARCHAR}, #{currentResidence,jdbcType=VARCHAR},
         #{birthday,jdbcType=DATE})
     </insert>
-    <insert id="insertSelective" parameterType="com.xiaqi.entity.User">
-        <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
-            SELECT LAST_INSERT_ID()
-        </selectKey>
-        insert into user
-        <trim prefix="(" suffix=")" suffixOverrides=",">
-            <if test="username != null">
-                username,
-            </if>
-            <if test="password != null">
-                password,
-            </if>
-            <if test="nickname != null">
-                nickname,
-            </if>
-            <if test="headPicture != null">
-                headPicture,
-            </if>
-            <if test="personalSignature != null">
-                personalSignature,
-            </if>
-            <if test="currentResidence != null">
-                currentResidence,
-            </if>
-            <if test="birthday != null">
-                birthday,
-            </if>
-        </trim>
-        <trim prefix="values (" suffix=")" suffixOverrides=",">
-            <if test="username != null">
-                #{username,jdbcType=VARCHAR},
-            </if>
-            <if test="password != null">
-                #{password,jdbcType=VARCHAR},
-            </if>
-            <if test="nickname != null">
-                #{nickname,jdbcType=VARCHAR},
-            </if>
-            <if test="headPicture != null">
-                #{headPicture,jdbcType=VARCHAR},
-            </if>
-            <if test="personalSignature != null">
-                #{personalSignature,jdbcType=VARCHAR},
-            </if>
-            <if test="currentResidence != null">
-                #{currentResidence,jdbcType=VARCHAR},
-            </if>
-            <if test="birthday != null">
-                #{birthday,jdbcType=DATE},
-            </if>
-        </trim>
-    </insert>
     <update id="updateByPrimaryKeySelective" parameterType="com.xiaqi.entity.User">
         update user
         <set>

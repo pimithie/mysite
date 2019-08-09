@@ -2,21 +2,49 @@ package com.xiaqi.entity;
 
 import java.util.Date;
 
+/**
+ * 用户实体类
+ * @author xiaqi
+ */
 public class User {
+    /**
+     * 用户id
+     */
     private Integer id;
 
+    /**
+     * 用户们
+     */
     private String username;
 
+    /**
+     * 密码
+     */
     private String password;
 
+    /**
+     * 昵称
+     */
     private String nickname;
 
+    /**
+     * 头像URL路径
+     */
     private String headPicture;
 
+    /**
+     * 个性签名
+     */
     private String personalSignature;
 
+    /**
+     * 当前所在地
+     */
     private String currentResidence;
 
+    /**
+     * 生日
+     */
     private Date birthday;
 
     public Integer getId() {
