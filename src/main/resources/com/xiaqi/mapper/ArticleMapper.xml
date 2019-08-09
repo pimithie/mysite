@@ -36,6 +36,23 @@
     from article
     where id = #{id,jdbcType=BIGINT}
   </select>
+  <select id="getAllArticles" resultType="com.xiaqi.entity.Article">
+    select <include refid="Base_Column_List"/>
+    from article;
+  </select>
+  <select id="getAllHotArticles" resultType="com.xiaqi.entity.Article">
+    select <include refid="Base_Column_List"/>
+    from article
+    where isHot = 1;
+  </select>
+  <select id="getAllTopArticles" resultType="com.xiaqi.entity.Article">
+    select <include refid="Base_Column_List"/>
+    from article
+    where isTop = 1;
+  </select>
+  <select id="getArticlesByCategory" resultType="com.xiaqi.entity.Article">
+    <!-- TODO: article inner join article or subquery-->
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
     delete from article
     where id = #{id,jdbcType=BIGINT}

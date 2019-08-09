@@ -2,6 +2,8 @@ package com.xiaqi.mapper;
 
 import com.xiaqi.entity.Article;
 
+import java.util.List;
+
 /**
  * 文章dao
  * @author xiaqi
@@ -48,4 +50,29 @@ public interface ArticleMapper {
      * @return 影响行数
      */
     int updateByPrimaryKey(Article record);
+
+    /**
+     * 获取所有文章
+     * @return 文章列表
+     */
+    List<Article> getAllArticles();
+
+    /**
+     * 获取所有热门文章
+     * @return 文章列表
+     */
+    List<Article> getAllHotArticles();
+
+    /**
+     * 获取所有置顶文章
+     * @return 文章列表
+     */
+    List<Article> getAllTopArticles();
+
+    /**
+     * 获取指定分类文章
+     * @param categoryId 文章分类id
+     * @return 文章列表
+     */
+    List<Article> getArticlesByCategory(int categoryId);
 }

@@ -70,7 +70,7 @@ public class Article {
     /**
      * TODO：文章与分类为多对多关系，需建立第三张表
      */
-    private Long catagoryId;
+    private Long categoryId;
 
     /**
      * 是否为热门文章
@@ -184,11 +184,11 @@ public class Article {
     }
 
     public Long getCatagoryId() {
-        return catagoryId;
+        return categoryId;
     }
 
     public void setCatagoryId(Long catagoryId) {
-        this.catagoryId = catagoryId;
+        this.categoryId = catagoryId;
     }
 
     public Byte getIsHot() {
@@ -230,7 +230,7 @@ public class Article {
                 ", introduction='" + introduction + '\'' +
                 ", isPrivate=" + isPrivate +
                 ", image='" + image + '\'' +
-                ", catagoryId=" + catagoryId +
+                ", catagoryId=" + categoryId +
                 ", isHot=" + isHot +
                 ", isTop=" + isTop +
                 ", content='" + content + '\'' +
