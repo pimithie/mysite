@@ -14,13 +14,12 @@
   <sql id="Base_Column_List">
     id, articleId, publishTime, publishId, up, down, isTop, isDelete
   </sql>
-  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
-    select 
-    <include refid="Base_Column_List" />
-    from comment
-    where id = #{id,jdbcType=INTEGER}
-  </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    <select id="getAllCommentsByArticleId" resultType="com.xiaqi.entity.Comment">
+      select <include refid="Base_Column_List"/>
+      from comment
+      where articleId = #{articleId};
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from comment
     where id = #{id,jdbcType=INTEGER}
   </delete>

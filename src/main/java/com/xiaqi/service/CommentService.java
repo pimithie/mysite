@@ -19,10 +19,11 @@ public interface CommentService {
 
     /**
      * 某文章新增评论
+     * @param comment 新增的评论
      * @param articleId 文章id
      * @return 服务器响应实体
      */
-    Message insertComment(long articleId);
+    Message insertComment(Comment comment);
 
     /**
      * 更新评论
