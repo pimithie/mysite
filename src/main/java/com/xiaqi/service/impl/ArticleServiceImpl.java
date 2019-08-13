@@ -1,5 +1,6 @@
 package com.xiaqi.service.impl;
 
+import com.xiaqi.EnableCache;
 import com.xiaqi.bean.Message;
 import com.xiaqi.mapper.ArticleMapper;
 import com.xiaqi.service.ArticleService;
@@ -18,6 +19,7 @@ public class ArticleServiceImpl implements ArticleService {
     private ArticleMapper articleMapper;
 
     @Override
+    @EnableCache(true)
     public Message getAllArticles() {
         Message message = new Message();
         try {

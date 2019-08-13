@@ -20,7 +20,6 @@ public interface CommentService {
     /**
      * 某文章新增评论
      * @param comment 新增的评论
-     * @param articleId 文章id
      * @return 服务器响应实体
      */
     Message insertComment(Comment comment);
