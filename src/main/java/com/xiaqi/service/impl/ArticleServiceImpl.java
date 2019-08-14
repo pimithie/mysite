@@ -1,6 +1,6 @@
 package com.xiaqi.service.impl;
 
-import com.xiaqi.EnableCache;
+import com.xiaqi.annotation.EnableCache;
 import com.xiaqi.bean.Message;
 import com.xiaqi.mapper.ArticleMapper;
 import com.xiaqi.service.ArticleService;
@@ -23,9 +23,10 @@ public class ArticleServiceImpl implements ArticleService {
     public Message getAllArticles() {
         Message message = new Message();
         try {
-            message.setCode(200);
-            message.setMessage("查询所有文章成功");
-            message.setData(articleMapper.getAllArticles());
+//            message.setCode(200);
+//            message.setMessage("查询所有文章成功");
+//            message.setData(articleMapper.getAllArticles());
+            System.out.println("I am invoked");
             return message;
         } catch (Exception e) {
             message.setCode(500);

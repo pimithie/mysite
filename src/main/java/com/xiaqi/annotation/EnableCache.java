@@ -1,4 +1,4 @@
-package com.xiaqi;
+package com.xiaqi.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
