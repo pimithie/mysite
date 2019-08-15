@@ -1,6 +1,7 @@
 package com.xiaqi.entity;
 
 import java.util.Date;
+import java.util.Objects;
 
 /**
  * 评论实体
@@ -110,5 +111,43 @@ public class Comment {
 
     public void setIsDelete(Byte isDelete) {
         this.isDelete = isDelete;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        Comment comment = (Comment) o;
+        return Objects.equals(id, comment.id) &&
+                Objects.equals(articleId, comment.articleId) &&
+                Objects.equals(publishTime, comment.publishTime) &&
+                Objects.equals(publishId, comment.publishId) &&
+                Objects.equals(up, comment.up) &&
+                Objects.equals(down, comment.down) &&
+                Objects.equals(isTop, comment.isTop) &&
+                Objects.equals(isDelete, comment.isDelete);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, articleId, publishTime, publishId, up, down, isTop, isDelete);
+    }
+
+    @Override
+    public String toString() {
+        return "Comment{" +
+                "id=" + id +
+                ", articleId=" + articleId +
+                ", publishTime=" + publishTime +
+                ", publishId=" + publishId +
+                ", up=" + up +
+                ", down=" + down +
+                ", isTop=" + isTop +
+                ", isDelete=" + isDelete +
+                '}';
     }
 }

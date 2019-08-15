@@ -1,6 +1,7 @@
 package com.xiaqi.entity;
 
 import java.util.Date;
+import java.util.Objects;
 
 /**
  * 文章实体类
@@ -235,5 +236,37 @@ public class Article {
                 ", isTop=" + isTop +
                 ", content='" + content + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        Article article = (Article) o;
+        return Objects.equals(id, article.id) &&
+                Objects.equals(userId, article.userId) &&
+                Objects.equals(createTime, article.createTime) &&
+                Objects.equals(lastModifiedTime, article.lastModifiedTime) &&
+                Objects.equals(lastPublishTime, article.lastPublishTime) &&
+                Objects.equals(viewTimes, article.viewTimes) &&
+                Objects.equals(awesome, article.awesome) &&
+                Objects.equals(title, article.title) &&
+                Objects.equals(subTitle, article.subTitle) &&
+                Objects.equals(introduction, article.introduction) &&
+                Objects.equals(isPrivate, article.isPrivate) &&
+                Objects.equals(image, article.image) &&
+                Objects.equals(categoryId, article.categoryId) &&
+                Objects.equals(isHot, article.isHot) &&
+                Objects.equals(isTop, article.isTop) &&
+                Objects.equals(content, article.content);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, userId, createTime, lastModifiedTime, lastPublishTime, viewTimes, awesome, title, subTitle, introduction, isPrivate, image, categoryId, isHot, isTop, content);
     }
 }

@@ -1,6 +1,7 @@
 package com.xiaqi.entity;
 
 import java.util.Date;
+import java.util.Objects;
 
 /**
  * 用户实体类
@@ -123,5 +124,29 @@ public class User {
                 ", currentResidence='" + currentResidence + '\'' +
                 ", birthday=" + birthday +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        User user = (User) o;
+        return Objects.equals(id, user.id) &&
+                Objects.equals(username, user.username) &&
+                Objects.equals(password, user.password) &&
+                Objects.equals(nickname, user.nickname) &&
+                Objects.equals(headPicture, user.headPicture) &&
+                Objects.equals(personalSignature, user.personalSignature) &&
+                Objects.equals(currentResidence, user.currentResidence) &&
+                Objects.equals(birthday, user.birthday);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, username, password, nickname, headPicture, personalSignature, currentResidence, birthday);
     }
 }
