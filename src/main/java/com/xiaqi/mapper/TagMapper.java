@@ -2,6 +2,8 @@ package com.xiaqi.mapper;
 
 import com.xiaqi.entity.Tag;
 
+import java.util.List;
+
 /**
  * 标签Mapper
  * @author xiaqi
@@ -41,4 +43,11 @@ public interface TagMapper {
      * @return 影响行数
      */
     int updateByPrimaryKey(Tag record);
+
+    /**
+     * 根据标签名后模糊查询标签
+     * @param tagName 指定标签id
+     * @return 标签列表
+     */
+    List<Tag> getTagsByTagNameBlur(String tagName);
 }
