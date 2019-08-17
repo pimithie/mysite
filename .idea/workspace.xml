@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af97c175-48ee-4cd8-9a27-06e40179c514" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaqi/service/TagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestTagService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/TagMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/TagMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/TagServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/TagServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/TagMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/TagMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,7 +34,7 @@
     <session id="-638351172">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -51,27 +54,27 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.54" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="aj" value="285" />
-          <entry key="java" value="8481" />
+          <entry key="java" value="9025" />
           <entry key="md" value="29" />
           <entry key="properties" value="152" />
-          <entry key="xml" value="1854" />
+          <entry key="xml" value="1930" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="AspectJ" value="285" />
-          <entry key="JAVA" value="8481" />
+          <entry key="JAVA" value="9025" />
           <entry key="Markdown" value="29" />
           <entry key="Properties" value="152" />
-          <entry key="SQL" value="13" />
-          <entry key="XML" value="1841" />
+          <entry key="SQL" value="15" />
+          <entry key="XML" value="1915" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -79,34 +82,34 @@
           <entry key="MD" value="1" />
           <entry key="aj" value="1" />
           <entry key="class" value="9" />
-          <entry key="java" value="174" />
+          <entry key="java" value="181" />
           <entry key="pointcutExpression" value="1" />
           <entry key="properties" value="8" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="59" />
+          <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="AspectJ" value="1" />
           <entry key="CLASS" value="9" />
-          <entry key="JAVA" value="174" />
+          <entry key="JAVA" value="181" />
           <entry key="Markdown" value="1" />
           <entry key="Pointcut Expression" value="1" />
           <entry key="Properties" value="8" />
           <entry key="SQL" value="1" />
-          <entry key="XML" value="59" />
+          <entry key="XML" value="60" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/TagService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/TagMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="439">
+              <caret line="52" column="65" lean-forward="true" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,10 +118,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Article.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/TagServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-411">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="95">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -201,10 +204,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Article.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Comment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/TagMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/TagMapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/service/TagService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestTagService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/TagMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/TagMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/TagServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -262,7 +267,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,7 +325,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xiaqi" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaqi" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaqi" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
@@ -363,12 +386,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565970460748" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565972681734" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../xmall" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -398,7 +422,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="JUnit.TestTagService">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xiaqi.test.Main" />
       <module name="myblog" />
@@ -452,7 +476,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUserService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTagService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myblog" />
       <extension name="coverage">
         <pattern>
@@ -461,25 +485,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xiaqi.test" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaqi.test.TestUserService" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaqi.test.TestTagService" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Solution" />
-      <item itemvalue="JUnit.TestUserService" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main1" />
       <item itemvalue="JUnit.TestRedisAspect" />
+      <item itemvalue="JUnit.TestTagService" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestTagService" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.TestRedisAspect" />
         <item itemvalue="Application.Main1" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TestUserService" />
       </list>
     </recent_temporary>
   </component>
@@ -517,32 +541,12 @@
       <workItem from="1565710327858" duration="2040000" />
       <workItem from="1565772332907" duration="3723000" />
       <workItem from="1565876658013" duration="2930000" />
-      <workItem from="1565936040247" duration="3309000" />
+      <workItem from="1565936040247" duration="5446000" />
+      <workItem from="1566054030451" duration="755000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestUserService - 2019.08.08 at 23h 50m 51s.xml">
-      <configuration name="TestUserService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRedisAspect - 2019.08.14 at 16h 50m 30s.xml">
-      <configuration name="TestRedisAspect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRedisAspect - 2019.08.14 at 16h 50m 58s.xml">
-      <configuration name="TestRedisAspect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRedisAspect - 2019.08.14 at 16h 51m 49s.xml">
-      <configuration name="TestRedisAspect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRedisAspect - 2019.08.14 at 16h 52m 21s.xml">
-      <configuration name="TestRedisAspect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRedisAspect - 2019.08.14 at 16h 52m 51s.xml">
-      <configuration name="TestRedisAspect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRedisAspect - 2019.08.14 at 16h 54m 31s.xml">
-      <configuration name="TestRedisAspect" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestRedisAspect - 2019.08.14 at 16h 54m 48s.xml">
       <configuration name="TestRedisAspect" configurationId="JUnit" />
     </history-entry>
@@ -552,14 +556,36 @@
     <history-entry file="TestRedisAspect - 2019.08.14 at 17h 02m 38s.xml">
       <configuration name="TestRedisAspect" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestTagService - 2019.08.17 at 00h 00m 04s.xml">
+      <configuration name="TestTagService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTagService - 2019.08.17 at 00h 03m 46s.xml">
+      <configuration name="TestTagService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTagService - 2019.08.17 at 00h 04m 37s.xml">
+      <configuration name="TestTagService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTagService - 2019.08.17 at 00h 08m 42s.xml">
+      <configuration name="TestTagService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTagService - 2019.08.17 at 00h 09m 42s.xml">
+      <configuration name="TestTagService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTagService - 2019.08.17 at 00h 10m 07s.xml">
+      <configuration name="TestTagService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTagService - 2019.08.17 at 00h 12m 14s.xml">
+      <configuration name="TestTagService" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89799000" />
+    <option name="totallyTimeSpent" value="92691000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23827533" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24205749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -569,12 +595,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6768489" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7797428" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29421222" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46463022" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.40192926" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.6688103" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.329582" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.47106108" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -603,20 +629,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/ArticleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="3330" column="32" lean-forward="true" selection-start-line="3330" selection-start-column="32" selection-end-line="3330" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/AbstractStringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -852,29 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Tag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1256">
-          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
-          <folding>
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1159#1160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
@@ -892,13 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="634">
           <caret line="121" column="35" lean-forward="true" selection-start-line="121" selection-start-column="35" selection-end-line="121" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/TagMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -930,41 +912,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/TagMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Article.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestMybatisSpring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/TagService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="292">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Article.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Tag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-411">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestMybatisSpring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestTagService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/TagService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="44" column="7" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="44" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/TagMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/TagMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="52" column="65" lean-forward="true" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/TagServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

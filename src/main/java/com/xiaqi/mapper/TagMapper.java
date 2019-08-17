@@ -1,6 +1,7 @@
 package com.xiaqi.mapper;
 
 import com.xiaqi.entity.Tag;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -49,5 +50,5 @@ public interface TagMapper {
      * @param tagName 指定标签id
      * @return 标签列表
      */
-    List<Tag> getTagsByTagNameBlur(String tagName);
+    List<Tag> getTagsByTagNameBlur(@Param("tagName") String tagName);
 }

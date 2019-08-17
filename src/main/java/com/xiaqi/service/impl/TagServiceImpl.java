@@ -3,13 +3,13 @@ package com.xiaqi.service.impl;
 import com.xiaqi.entity.Tag;
 import com.xiaqi.mapper.TagMapper;
 import com.xiaqi.service.TagService;
-import org.aspectj.lang.annotation.AfterReturning;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 /**
+ * 标签服务实现
  * @author xiaqi
  * @date 2019/8/16
  */
@@ -41,6 +41,6 @@ public class TagServiceImpl implements TagService {
 
     @Override
     public List<Tag> getTagsByTagNameBlur(String tagName) {
-        return tagMapper.getTagsByTagNameBlur(tagName);
+        return tagMapper.getTagsByTagNameBlur(tagName+'%');
     }
 }
