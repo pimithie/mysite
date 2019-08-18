@@ -69,11 +69,6 @@ public class Article {
     private String image;
 
     /**
-     * TODO：文章与分类为多对多关系，需建立第三张表
-     */
-    private Long categoryId;
-
-    /**
      * 是否为热门文章
      */
     private Byte isHot;
@@ -184,14 +179,6 @@ public class Article {
         this.image = image == null ? null : image.trim();
     }
 
-    public Long getCatagoryId() {
-        return categoryId;
-    }
-
-    public void setCatagoryId(Long catagoryId) {
-        this.categoryId = catagoryId;
-    }
-
     public Byte getIsHot() {
         return isHot;
     }
@@ -231,7 +218,6 @@ public class Article {
                 ", introduction='" + introduction + '\'' +
                 ", isPrivate=" + isPrivate +
                 ", image='" + image + '\'' +
-                ", catagoryId=" + categoryId +
                 ", isHot=" + isHot +
                 ", isTop=" + isTop +
                 ", content='" + content + '\'' +
@@ -259,7 +245,6 @@ public class Article {
                 Objects.equals(introduction, article.introduction) &&
                 Objects.equals(isPrivate, article.isPrivate) &&
                 Objects.equals(image, article.image) &&
-                Objects.equals(categoryId, article.categoryId) &&
                 Objects.equals(isHot, article.isHot) &&
                 Objects.equals(isTop, article.isTop) &&
                 Objects.equals(content, article.content);
@@ -267,6 +252,6 @@ public class Article {
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, userId, createTime, lastModifiedTime, lastPublishTime, viewTimes, awesome, title, subTitle, introduction, isPrivate, image, categoryId, isHot, isTop, content);
+        return Objects.hash(id, userId, createTime, lastModifiedTime, lastPublishTime, viewTimes, awesome, title, subTitle, introduction, isPrivate, image, isHot, isTop, content);
     }
 }

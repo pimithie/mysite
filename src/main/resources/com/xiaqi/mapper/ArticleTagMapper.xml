@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaqi.mapper.ArticleTagMapper">
+  <resultMap id="BaseResultMap" type="com.xiaqi.entity.ArticleTag">
+    <result column="articleId" jdbcType="BIGINT" property="articleId" />
+    <result column="tagId" jdbcType="INTEGER" property="tagId" />
+  </resultMap>
+  <insert id="insert" parameterType="com.xiaqi.entity.ArticleTag">
+    insert into article_tag (articleId, tagId)
+    values (#{articleId,jdbcType=BIGINT}, #{tagId,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.xiaqi.entity.ArticleTag">
+    insert into article_tag
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="articleId != null">
+        articleId,
+      </if>
+      <if test="tagId != null">
+        tagId,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="articleId != null">
+        #{articleId,jdbcType=BIGINT},
+      </if>
+      <if test="tagId != null">
+        #{tagId,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+</mapper>
