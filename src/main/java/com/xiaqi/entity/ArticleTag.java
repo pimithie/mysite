@@ -41,6 +41,13 @@ public class ArticleTag {
                 '}';
     }
 
+    public ArticleTag(Long articleId, Integer tagId) {
+        this.articleId = articleId;
+        this.tagId = tagId;
+    }
+
+    public ArticleTag() {}
+
     @Override
     public boolean equals(Object o) {
         if (this == o) {

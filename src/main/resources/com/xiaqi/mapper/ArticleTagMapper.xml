@@ -9,23 +9,13 @@
     insert into article_tag (articleId, tagId)
     values (#{articleId,jdbcType=BIGINT}, #{tagId,jdbcType=INTEGER})
   </insert>
-  <insert id="insertSelective" parameterType="com.xiaqi.entity.ArticleTag">
-    insert into article_tag
-    <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="articleId != null">
-        articleId,
-      </if>
-      <if test="tagId != null">
-        tagId,
-      </if>
-    </trim>
-    <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="articleId != null">
-        #{articleId,jdbcType=BIGINT},
-      </if>
-      <if test="tagId != null">
-        #{tagId,jdbcType=INTEGER},
-      </if>
-    </trim>
-  </insert>
+    <delete id="delete" parameterType="ArticleTag">
+      delete from article_tag
+      where articleId = #{articleId} and tagId = #{tagId}
+    </delete>
+  <select id="getAllTagsByArticleId" resultType="integer">
+    select tagId
+    from article_tag
+    where articleId = #{articleId}
+  </select>
 </mapper>
