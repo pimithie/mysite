@@ -15,6 +15,7 @@ public class ServerMessageFactory {
     public static Message generateServerMsgByType(StatusCode statusCode) {
         Message message = new Message();
         message.setCode(statusCode.getStatusCode());
+        message.setMessage(statusCode.getMessage());
         return message;
     }
 
