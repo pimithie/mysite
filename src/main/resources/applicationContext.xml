@@ -8,7 +8,7 @@
 
     <context:component-scan base-package="com.xiaqi.service,com.xiaqi.aspect"/>
 
-    <context:property-placeholder location="classpath:db.properties"/>
+    <context:property-placeholder location="classpath:db.properties,redis-config.properties"/>
 
     <aop:aspectj-autoproxy/>
 
@@ -33,7 +33,10 @@
 
     <bean id="jedisConnFactory"
           class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
-          p:use-pool="true"/>
+          p:use-pool="true">
+        <property name="hostName" value="${redis.hostName}"
+        
+    </bean>
 
     <!-- redis template definition -->
     <bean id="redisTemplate"
