@@ -26,7 +26,7 @@ public class ArticleServiceImpl implements ArticleService {
 //            message.setCode(200);
 //            message.setMessage("查询所有文章成功");
 //            message.setData(articleMapper.getAllArticles());
-            System.out.println("I am invoked");
+            System.out.println("查询所有文章成功");
             return message;
         } catch (Exception e) {
             message.setCode(500);
