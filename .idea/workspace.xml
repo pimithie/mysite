@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af97c175-48ee-4cd8-9a27-06e40179c514" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaqi/bean/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestArticleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/RedisCacheAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/RedisCacheAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/redis-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestRedisAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestRedis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,12 +31,12 @@
     <session id="-638351172">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
+          <entry key="project.closed" value="30" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.26" value="1" />
@@ -58,26 +52,26 @@
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="aj" value="285" />
-          <entry key="java" value="11353" />
+          <entry key="java" value="11557" />
           <entry key="md" value="29" />
           <entry key="properties" value="168" />
-          <entry key="xml" value="2484" />
+          <entry key="xml" value="2495" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="AspectJ" value="285" />
-          <entry key="JAVA" value="11353" />
+          <entry key="JAVA" value="11557" />
           <entry key="Markdown" value="29" />
           <entry key="Properties" value="168" />
           <entry key="SQL" value="19" />
-          <entry key="XML" value="2465" />
+          <entry key="XML" value="2476" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,23 +79,23 @@
           <entry key="MD" value="1" />
           <entry key="aj" value="1" />
           <entry key="class" value="9" />
-          <entry key="java" value="220" />
+          <entry key="java" value="228" />
           <entry key="pointcutExpression" value="1" />
           <entry key="properties" value="14" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="67" />
+          <entry key="xml" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="AspectJ" value="1" />
           <entry key="CLASS" value="9" />
-          <entry key="JAVA" value="220" />
+          <entry key="JAVA" value="228" />
           <entry key="Markdown" value="1" />
           <entry key="Pointcut Expression" value="1" />
           <entry key="Properties" value="14" />
           <entry key="SQL" value="1" />
-          <entry key="XML" value="67" />
+          <entry key="XML" value="68" />
         </counts>
       </usages-collector>
     </session>
@@ -109,95 +103,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/RedisCacheAspect.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/SentenceMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.6.RELEASE/spring-data-redis-1.8.6.RELEASE-sources.jar!/org/springframework/data/redis/core/ZSetOperations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="109" column="17" lean-forward="true" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.6.RELEASE/spring-data-redis-1.8.6.RELEASE-sources.jar!/org/springframework/data/redis/core/DefaultZSetOperations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.6.RELEASE/spring-data-redis-1.8.6.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisZSetCommands.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="278" column="16" selection-start-line="278" selection-start-column="16" selection-end-line="278" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.6.RELEASE/spring-data-redis-1.8.6.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="2342" column="23" selection-start-line="2342" selection-start-column="23" selection-end-line="2342" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/BinaryJedis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="1584" column="14" lean-forward="true" selection-start-line="1584" selection-start-column="14" selection-end-line="1584" selection-end-column="14" />
-              <folding>
-                <element signature="e#133770#133771#0" expanded="true" />
-                <element signature="e#133815#133816#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/BinaryClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="439" column="9" lean-forward="true" selection-start-line="439" selection-start-column="9" selection-end-line="439" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/Connection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="126" column="21" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/Protocol.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="83" column="39" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.6.RELEASE/spring-data-redis-1.8.6.RELEASE-sources.jar!/org/springframework/data/redis/connection/DefaultStringRedisConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="1057" column="41" lean-forward="true" selection-start-line="1057" selection-start-column="41" selection-end-line="1057" selection-end-column="41" />
+            <state relative-caret-position="152">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -233,8 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestUserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/UserMapper.xml" />
@@ -268,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/TagServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/com/xiaqi/util/ServerMessageFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/controller/TagController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Article.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/entity/ArticleTag.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/ArticleTagMapper.java" />
@@ -284,6 +190,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestArticleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/bean/Constant.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/RedisCacheAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Sentence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/SentenceMapper.java" />
       </list>
     </option>
   </component>
@@ -341,7 +250,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -382,35 +290,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xiaqi" type="462c0819:PsiDirectoryNode" />
-              <item name="aspect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaqi" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaqi" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaqi" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
@@ -439,25 +319,18 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566488116270" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566490474844" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/xiaqi" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../xmall" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -619,20 +492,12 @@
       <workItem from="1566223927758" duration="2519000" />
       <workItem from="1566315926674" duration="1140000" />
       <workItem from="1566402335593" duration="2740000" />
-      <workItem from="1566486745935" duration="1288000" />
+      <workItem from="1566486745935" duration="3386000" />
+      <workItem from="1566570687092" duration="1735000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRedisAspect - 2019.08.14 at 17h 02m 38s.xml">
-      <configuration name="TestRedisAspect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTagService - 2019.08.17 at 00h 00m 04s.xml">
-      <configuration name="TestTagService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTagService - 2019.08.17 at 00h 03m 46s.xml">
-      <configuration name="TestTagService" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestTagService - 2019.08.17 at 00h 04m 37s.xml">
       <configuration name="TestTagService" configurationId="JUnit" />
     </history-entry>
@@ -654,15 +519,24 @@
     <history-entry file="TestArticleService - 2019.08.22 at 23h 26m 46s.xml">
       <configuration name="TestArticleService" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestArticleService - 2019.08.22 at 23h 34m 32s.xml">
+      <configuration name="TestArticleService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestArticleService_testRedisCacheAspect - 2019.08.22 at 23h 35m 41s.xml">
+      <configuration name="TestArticleService.testRedisCacheAspect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestArticleService_testRedisCacheAspect - 2019.08.22 at 23h 36m 22s.xml">
+      <configuration name="TestArticleService.testRedisCacheAspect" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104124000" />
+    <option name="totallyTimeSpent" value="107957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1913767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20953101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -672,12 +546,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6768489" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21221864" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7266881" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46463022" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329582" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.8569132" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.329582" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.47106108" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -698,6 +572,43 @@
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Translate" order="11" weight="0.32980332" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1913767" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6768489" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7266881" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46463022" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2073955" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.329582" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.47106108" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Tail" order="13" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.6028939" />
+      <window_info anchor="right" id="CDI" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Codota" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.2700454" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Translate" order="11" weight="0.32980332" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -706,35 +617,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="121" column="35" lean-forward="true" selection-start-line="121" selection-start-column="35" selection-end-line="121" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/NoClassDefFoundError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="286" column="19" lean-forward="true" selection-start-line="286" selection-start-column="19" selection-end-line="286" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="115" column="52" selection-start-line="115" selection-start-column="52" selection-end-line="115" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Tag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -795,13 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
           <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="72" column="64" lean-forward="true" selection-start-line="72" selection-start-column="64" selection-end-line="72" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -971,25 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/ArticleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/bean/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1022,10 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="1584" column="14" lean-forward="true" selection-start-line="1584" selection-start-column="14" selection-end-line="1584" selection-end-column="14" />
-          <folding>
-            <element signature="e#133770#133771#0" expanded="true" />
-            <element signature="e#133815#133816#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,10 +895,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.6.RELEASE/spring-data-redis-1.8.6.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisZSetCommands.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.6.RELEASE/spring-data-redis-1.8.6.RELEASE-sources.jar!/org/springframework/data/redis/core/ZSetOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="278" column="16" selection-start-line="278" selection-start-column="16" selection-end-line="278" selection-end-column="16" />
+        <state relative-caret-position="149">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1057,17 +909,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.6.RELEASE/spring-data-redis-1.8.6.RELEASE-sources.jar!/org/springframework/data/redis/core/ZSetOperations.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestArticleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="109" column="17" lean-forward="true" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
+        <state relative-caret-position="418">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.6.RELEASE/spring-data-redis-1.8.6.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisZSetCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="278" column="16" selection-start-line="278" selection-start-column="16" selection-end-line="278" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/OutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/ArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/RedisCacheAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="667">
+          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="1183" column="47" lean-forward="true" selection-start-line="1183" selection-start-column="47" selection-end-line="1183" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.18.RELEASE/spring-tx-4.3.18.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11115">
+          <caret line="648" lean-forward="true" selection-start-line="648" selection-end-line="648" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Sentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+          <folding>
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1357#1358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="81" column="16" lean-forward="true" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/SentenceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
