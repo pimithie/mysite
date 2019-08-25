@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af97c175-48ee-4cd8-9a27-06e40179c514" name="Default Changelist" comment="" />
+    <list default="true" id="af97c175-48ee-4cd8-9a27-06e40179c514" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaqi/annotation/EnableLogging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +31,7 @@
     <session id="-638351172">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="31" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -41,7 +44,7 @@
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.40" value="3" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="1" />
@@ -49,13 +52,13 @@
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="aj" value="285" />
-          <entry key="java" value="11882" />
+          <entry key="java" value="12089" />
           <entry key="md" value="29" />
           <entry key="properties" value="168" />
           <entry key="xml" value="2495" />
@@ -64,7 +67,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="AspectJ" value="285" />
-          <entry key="JAVA" value="11882" />
+          <entry key="JAVA" value="12089" />
           <entry key="Markdown" value="29" />
           <entry key="Properties" value="168" />
           <entry key="SQL" value="19" />
@@ -76,7 +79,7 @@
           <entry key="MD" value="1" />
           <entry key="aj" value="1" />
           <entry key="class" value="9" />
-          <entry key="java" value="230" />
+          <entry key="java" value="233" />
           <entry key="pointcutExpression" value="1" />
           <entry key="properties" value="14" />
           <entry key="sql" value="1" />
@@ -87,7 +90,7 @@
         <counts>
           <entry key="AspectJ" value="1" />
           <entry key="CLASS" value="9" />
-          <entry key="JAVA" value="230" />
+          <entry key="JAVA" value="233" />
           <entry key="Markdown" value="1" />
           <entry key="Pointcut Expression" value="1" />
           <entry key="Properties" value="14" />
@@ -98,7 +101,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/annotation/EnableLogging.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -129,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/ArticleMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/ArticleMapper.java" />
@@ -180,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/SentenceMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/service/SentenceService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/SentenceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/controller/SentenceController.java" />
       </list>
     </option>
   </component>
@@ -237,6 +250,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,7 +291,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xiaqi" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaqi" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaqi" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
@@ -311,13 +343,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566575511484" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566665870734" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/xiaqi" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../xmall" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -481,6 +512,8 @@
       <workItem from="1566402335593" duration="2740000" />
       <workItem from="1566486745935" duration="3386000" />
       <workItem from="1566570687092" duration="3665000" />
+      <workItem from="1566659385484" duration="1685000" />
+      <workItem from="1566748002470" duration="258000" />
     </task>
     <servers />
   </component>
@@ -517,12 +550,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109887000" />
+    <option name="totallyTimeSpent" value="111830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20953101" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24281392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -537,7 +571,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2363344" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5016077" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.329582" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.47106108" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -603,20 +637,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestTagService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/TagMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/TagServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -803,11 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -913,9 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
           <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -937,12 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
-          <folding>
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#1357#1358#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -960,28 +966,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/SentenceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/SentenceServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/SentenceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="48" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/controller/SentenceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/annotation/EnableLogging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
