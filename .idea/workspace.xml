@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af97c175-48ee-4cd8-9a27-06e40179c514" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaqi/annotation/EnableLogging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/ArticleServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/RedisCacheAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/RedisCacheAspect.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,7 +33,7 @@
     <session id="-638351172">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
+          <entry key="project.closed" value="33" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -44,7 +46,7 @@
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.4" value="6" />
           <entry key="project.open.time.40" value="3" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="1" />
@@ -52,25 +54,29 @@
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="aj" value="285" />
-          <entry key="java" value="12089" />
+          <entry key="java" value="12365" />
           <entry key="md" value="29" />
           <entry key="properties" value="168" />
+          <entry key="sql" value="40" />
+          <entry key="txt" value="6" />
           <entry key="xml" value="2495" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="AspectJ" value="285" />
-          <entry key="JAVA" value="12089" />
+          <entry key="JAVA" value="12365" />
           <entry key="Markdown" value="29" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="Properties" value="168" />
           <entry key="SQL" value="19" />
+          <entry key="Scratch" value="40" />
           <entry key="XML" value="2476" />
         </counts>
       </usages-collector>
@@ -79,10 +85,10 @@
           <entry key="MD" value="1" />
           <entry key="aj" value="1" />
           <entry key="class" value="9" />
-          <entry key="java" value="233" />
+          <entry key="java" value="237" />
           <entry key="pointcutExpression" value="1" />
           <entry key="properties" value="14" />
-          <entry key="sql" value="1" />
+          <entry key="sql" value="2" />
           <entry key="xml" value="68" />
         </counts>
       </usages-collector>
@@ -90,11 +96,12 @@
         <counts>
           <entry key="AspectJ" value="1" />
           <entry key="CLASS" value="9" />
-          <entry key="JAVA" value="233" />
+          <entry key="JAVA" value="237" />
           <entry key="Markdown" value="1" />
           <entry key="Pointcut Expression" value="1" />
           <entry key="Properties" value="14" />
           <entry key="SQL" value="1" />
+          <entry key="Scratch" value="1" />
           <entry key="XML" value="68" />
         </counts>
       </usages-collector>
@@ -103,10 +110,39 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/annotation/EnableLogging.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/ArticleServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="59">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#991#992#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1111#1112#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7c967d51-fcd8-4d75-b2e4-4fd8cc59354f/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/ArticleService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="34" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -118,8 +154,8 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Aspect" />
-        <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -142,9 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/ArticleMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/ArticleMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/service/ArticleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/controller/ArticleController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/Main.java" />
@@ -159,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/EnableCache.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/RedisCacheAspect.aj" />
         <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestRedisAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/LoggingAspect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/ServiceTemplateAspect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Tag.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Comment.java" />
@@ -186,13 +218,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/ArticleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestArticleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/bean/Constant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/RedisCacheAspect.java" />
         <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Sentence.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/SentenceMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/service/SentenceService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/SentenceServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/controller/SentenceController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/annotation/EnableLogging.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/LoggingAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/RedisCacheAspect.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7c967d51-fcd8-4d75-b2e4-4fd8cc59354f/console.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/ArticleServiceTest.java" />
       </list>
     </option>
   </component>
@@ -250,7 +286,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,25 +326,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xiaqi" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaqi" type="462c0819:PsiDirectoryNode" />
-              <item name="aspect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaqi" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
@@ -338,17 +355,28 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566665870734" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566833251456" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/xiaqi" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../xmall" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -379,16 +407,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestArticleService.testRedisCacheAspect">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xiaqi.test.Solution" />
+  <component name="RunManager" selected="JUnit.ArticleServiceTest">
+    <configuration name="ArticleServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myblog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xiaqi.test.*" />
+          <option name="PATTERN" value="com.xiaqi.test.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.xiaqi.test.service" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaqi.test.service.ArticleServiceTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -454,19 +483,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="JUnit.TestTagService" />
       <item itemvalue="JUnit.TestRedis.testRedisTemplate" />
       <item itemvalue="JUnit.TestArticleService" />
       <item itemvalue="JUnit.TestArticleService.testRedisCacheAspect" />
+      <item itemvalue="JUnit.ArticleServiceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArticleServiceTest" />
         <item itemvalue="JUnit.TestArticleService.testRedisCacheAspect" />
         <item itemvalue="JUnit.TestArticleService" />
         <item itemvalue="JUnit.TestRedis.testRedisTemplate" />
         <item itemvalue="JUnit.TestTagService" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -513,20 +542,12 @@
       <workItem from="1566486745935" duration="3386000" />
       <workItem from="1566570687092" duration="3665000" />
       <workItem from="1566659385484" duration="1685000" />
-      <workItem from="1566748002470" duration="258000" />
+      <workItem from="1566748002470" duration="1148000" />
+      <workItem from="1566830746499" duration="1459000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestTagService - 2019.08.17 at 00h 04m 37s.xml">
-      <configuration name="TestTagService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTagService - 2019.08.17 at 00h 08m 42s.xml">
-      <configuration name="TestTagService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTagService - 2019.08.17 at 00h 09m 42s.xml">
-      <configuration name="TestTagService" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestTagService - 2019.08.17 at 00h 10m 07s.xml">
       <configuration name="TestTagService" configurationId="JUnit" />
     </history-entry>
@@ -548,15 +569,24 @@
     <history-entry file="TestArticleService_testRedisCacheAspect - 2019.08.22 at 23h 36m 22s.xml">
       <configuration name="TestArticleService.testRedisCacheAspect" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ArticleServiceTest - 2019.08.26 at 23h 24m 56s.xml">
+      <configuration name="ArticleServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArticleServiceTest - 2019.08.26 at 23h 26m 41s.xml">
+      <configuration name="ArticleServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArticleServiceTest - 2019.08.26 at 23h 27m 42s.xml">
+      <configuration name="ArticleServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111830000" />
+    <option name="totallyTimeSpent" value="114179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24281392" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -564,18 +594,19 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.40353698" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6768489" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7266881" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.56913185" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46463022" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5016077" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5168539" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.329582" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.47106108" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="bottom" id="Spring" order="14" weight="0.6028939" />
@@ -588,7 +619,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.2700454" />
-      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Translate" order="11" weight="0.32980332" />
     </layout>
@@ -637,27 +668,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/TagServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="860" column="68" selection-start-line="860" selection-start-column="68" selection-end-line="860" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/TagService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/TagMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -819,13 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/LoggingAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -924,13 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/RedisCacheAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/ObjectOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
@@ -989,8 +985,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/annotation/EnableLogging.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="266">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/LoggingAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/RedisCacheAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="34" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7c967d51-fcd8-4d75-b2e4-4fd8cc59354f/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/ArticleServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

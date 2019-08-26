@@ -1,9 +1,7 @@
 package com.xiaqi.aspect;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ResultTreeType;
 import com.xiaqi.annotation.EnableCache;
 import com.xiaqi.entity.Article;
-import org.apache.ibatis.executor.ReuseExecutor;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -12,7 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ZSetOperations;
 import org.springframework.stereotype.Component;
-import com.xiaqi.bean.Constant;
 import java.util.Set;
 import static com.xiaqi.bean.Constant.GET_ALL_ARTICLES;
 

@@ -19,14 +19,12 @@ public class ArticleServiceImpl implements ArticleService {
     private ArticleMapper articleMapper;
 
     @Override
-    @EnableCache(true)
     public Message getAllArticles() {
         Message message = new Message();
         try {
-//            message.setCode(200);
-//            message.setMessage("查询所有文章成功");
-//            message.setData(articleMapper.getAllArticles());
-            System.out.println("查询所有文章成功");
+            message.setCode(200);
+            message.setMessage("查询所有文章成功");
+            message.setData(articleMapper.getAllArticles());
             return message;
         } catch (Exception e) {
             message.setCode(500);
@@ -40,7 +38,7 @@ public class ArticleServiceImpl implements ArticleService {
         Message message = new Message();
         try {
             message.setCode(200);
-            message.setMessage("查询所有文章成功");
+            message.setMessage("查询所有热门文章成功");
             message.setData(articleMapper.getAllHotArticles());
             return message;
         } catch (Exception e) {
@@ -55,7 +53,7 @@ public class ArticleServiceImpl implements ArticleService {
         Message message = new Message();
         try {
             message.setCode(200);
-            message.setMessage("查询所有文章成功");
+            message.setMessage("查询所有置顶文章成功");
             message.setData(articleMapper.getAllTopArticles());
             return message;
         } catch (Exception e) {
@@ -70,7 +68,7 @@ public class ArticleServiceImpl implements ArticleService {
         Message message = new Message();
         try {
             message.setCode(200);
-            message.setMessage("查询所有文章成功");
+            message.setMessage("查询所有分类id为["+categoryId+"]文章成功");
             message.setData(articleMapper.getArticlesByCategory(categoryId));
             return message;
         } catch (Exception e) {
