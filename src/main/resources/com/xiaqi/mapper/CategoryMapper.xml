@@ -14,6 +14,15 @@
     from category
     where id = #{id,jdbcType=INTEGER}
   </select>
+    <select id="selectAllCategory" resultType="com.xiaqi.entity.Category">
+      select <include refid="Base_Column_List"/>
+      from category
+    </select>
+  <select id="selectCategoryByNamePostBlur" resultType="com.xiaqi.entity.Category">
+    select <include refid="Base_Column_List"/>
+    from category
+    where catagoryName like #{prefix}
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from category
     where id = #{id,jdbcType=INTEGER}
@@ -24,22 +33,6 @@
     </selectKey>
     insert into category (catagoryName)
     values (#{catagoryName,jdbcType=VARCHAR})
-  </insert>
-  <insert id="insertSelective" parameterType="com.xiaqi.entity.Category">
-    <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
-      SELECT LAST_INSERT_ID()
-    </selectKey>
-    insert into category
-    <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="catagoryName != null">
-        catagoryName,
-      </if>
-    </trim>
-    <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="catagoryName != null">
-        #{catagoryName,jdbcType=VARCHAR},
-      </if>
-    </trim>
   </insert>
   <update id="updateByPrimaryKeySelective" parameterType="com.xiaqi.entity.Category">
     update category

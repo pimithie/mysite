@@ -28,4 +28,13 @@
       </if>
     </trim>
   </insert>
+    <delete id="deleteCategoryWithArticle">
+      delete from article_category
+      where articleId = #{articleId} and categoryId = #{categoryId}
+    </delete>
+  <select id="selectAllCategoryByArticleId" resultType="integer">
+    select categoryId
+    from article_category
+    where articleId = #{articleId}
+  </select>
 </mapper>

@@ -16,6 +16,14 @@ public class ArticleCategory {
      */
     private Integer categoryId;
 
+    public ArticleCategory() {
+    }
+
+    public ArticleCategory(Long articleId, Integer categoryId) {
+        this.articleId = articleId;
+        this.categoryId = categoryId;
+    }
+
     public Long getArticleId() {
         return articleId;
     }
