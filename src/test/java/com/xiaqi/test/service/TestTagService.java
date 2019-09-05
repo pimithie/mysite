@@ -1,7 +1,7 @@
-package com.xiaqi.test;
+package com.xiaqi.test.service;
 
-import com.xiaqi.bean.Message;
-import com.xiaqi.service.UserService;
+import com.xiaqi.entity.Tag;
+import com.xiaqi.service.TagService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,20 +10,17 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
  * @author xiaqi
- * @date 2019/8/8
+ * @date 2019/8/16
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:applicationContext.xml")
-public class TestUserService {
+public class TestTagService {
 
     @Autowired
-    private UserService userService;
+    private TagService tagService;
 
     @Test
     public void test() {
-        Message allUsers = userService.getAllUsers();
-        System.out.println(allUsers.getData());
-        Message user = userService.getUserByUsername("admin");
-        System.out.println(user.getData());
+        System.out.println(tagService.getTagsByTagNameBlur("spr"));
     }
 }

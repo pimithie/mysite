@@ -1,4 +1,4 @@
-package com.xiaqi.test;
+package com.xiaqi.test.service;
 
 import com.xiaqi.service.ArticleService;
 import org.junit.Test;
