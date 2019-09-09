@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af97c175-48ee-4cd8-9a27-06e40179c514" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/CategoryServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/ArticleCategoryServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/ArticleTagServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/CommentServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/SentenceServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaqi/service/SentenceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaqi/service/SentenceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/SentenceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/SentenceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/TestArticleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/TestTagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/TagServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/TestUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/UserServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,12 +55,13 @@
     <session id="-638351172">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="39" />
+          <entry key="project.closed" value="40" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.26" value="1" />
@@ -71,13 +80,14 @@
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="41" />
+          <entry key="project.opened" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="aj" value="285" />
-          <entry key="java" value="15675" />
+          <entry key="dummy" value="3" />
+          <entry key="java" value="17213" />
           <entry key="md" value="29" />
           <entry key="properties" value="168" />
           <entry key="sql" value="396" />
@@ -88,9 +98,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="AspectJ" value="285" />
-          <entry key="JAVA" value="15675" />
+          <entry key="JAVA" value="17213" />
           <entry key="Markdown" value="29" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="Properties" value="168" />
           <entry key="SQL" value="25" />
           <entry key="Scratch" value="396" />
@@ -102,7 +112,7 @@
           <entry key="MD" value="1" />
           <entry key="aj" value="1" />
           <entry key="class" value="12" />
-          <entry key="java" value="340" />
+          <entry key="java" value="351" />
           <entry key="pointcutExpression" value="1" />
           <entry key="properties" value="15" />
           <entry key="sql" value="2" />
@@ -113,7 +123,7 @@
         <counts>
           <entry key="AspectJ" value="1" />
           <entry key="CLASS" value="12" />
-          <entry key="JAVA" value="340" />
+          <entry key="JAVA" value="351" />
           <entry key="Markdown" value="1" />
           <entry key="Pointcut Expression" value="1" />
           <entry key="Properties" value="15" />
@@ -127,24 +137,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/CategoryServiceTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/CommentServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+            <state relative-caret-position="361">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/CategoryService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="38" column="36" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -180,11 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Comment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/service/TagService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestTagService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/TagMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/xiaqi/mapper/TagMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/TagServiceImpl.java" />
@@ -203,8 +197,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/bean/Constant.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/entity/Sentence.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/mapper/SentenceMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/service/SentenceService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/SentenceServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/controller/SentenceController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/annotation/EnableLogging.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/aspect/LoggingAspect.java" />
@@ -231,6 +223,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/Test1.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestRedis.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/CategoryServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/ArticleCategoryServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/ArticleTagServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/SentenceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiaqi/service/SentenceService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/SentenceServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/CommentServiceTest.java" />
       </list>
     </option>
   </component>
@@ -289,6 +288,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,6 +327,15 @@
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaqi" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -354,14 +363,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567699061833" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568042296011" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/xiaqi" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../xmall" />
@@ -397,7 +405,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRedis.testRedisTemplate">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="myblog" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xiaqi.test.Main2" />
       <module name="myblog" />
@@ -439,22 +454,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArticleService.testRedisCacheAspect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myblog" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaqi.test.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xiaqi.test.service" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaqi.test.service.TestArticleService" />
-      <option name="METHOD_NAME" value="testRedisCacheAspect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestRedis.testRedisTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myblog" />
       <extension name="coverage">
@@ -472,19 +471,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestArticleService.testRedisCacheAspect" />
       <item itemvalue="JUnit.ArticleServiceTest" />
       <item itemvalue="Application.Main2" />
       <item itemvalue="JUnit.Test1" />
       <item itemvalue="JUnit.TestRedis.testRedisTemplate" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestRedis.testRedisTemplate" />
         <item itemvalue="JUnit.Test1" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="JUnit.ArticleServiceTest" />
-        <item itemvalue="JUnit.TestArticleService.testRedisCacheAspect" />
       </list>
     </recent_temporary>
   </component>
@@ -538,7 +537,8 @@
       <workItem from="1567435679605" duration="89000" />
       <workItem from="1567693966767" duration="2045000" />
       <workItem from="1567862167608" duration="1025000" />
-      <workItem from="1567957704600" duration="320000" />
+      <workItem from="1567957704600" duration="1034000" />
+      <workItem from="1567999243264" duration="5391000" />
     </task>
     <servers />
   </component>
@@ -575,13 +575,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133477000" />
+    <option name="totallyTimeSpent" value="139582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20953101" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -644,79 +644,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/util/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE-sources.jar!/org/springframework/beans/factory/xml/DefaultNamespaceHandlerResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE-sources.jar!/org/springframework/beans/factory/parsing/ReaderContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlReaderContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.2/slf4j-log4j12-1.7.2-sources.jar!/org/slf4j/impl/Log4jLoggerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="601" selection-start-line="601" selection-end-line="601" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-sources.jar!/org/apache/commons/logging/impl/SLF4JLocationAwareLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/core/type/filter/AnnotationTypeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/core/type/filter/AbstractTypeHierarchyTraversingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/core/io/FileSystemResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.54/fastjson-1.2.54-sources.jar!/com/alibaba/fastjson/asm/ByteVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -964,14 +891,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/TestTagService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/TagServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/TestUserService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/UserServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
@@ -981,19 +908,121 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/TestRedis.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/CategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="38" column="36" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="36" />
+        <state relative-caret-position="401">
+          <caret line="52" column="47" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/CategoryServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+        <state relative-caret-position="420">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1063#1064#0" expanded="true" />
             <element signature="e#1132#1133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="282" column="23" lean-forward="true" selection-start-line="282" selection-start-column="23" selection-end-line="282" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/ArticleServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/ArticleCategoryServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/ArticleCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="47" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/ArticleTagService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="34" column="55" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="34" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/ArticleTagServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/impl/SentenceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaqi/service/SentenceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/SentenceServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaqi/test/service/CommentServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

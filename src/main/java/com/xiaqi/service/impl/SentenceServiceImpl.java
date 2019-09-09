@@ -22,12 +22,12 @@ public class SentenceServiceImpl implements SentenceService {
     }
 
     @Override
-    public int deleteSentence(int sentenceId) {
+    public int deleteSentenceById(int sentenceId) {
         return sentenceMapper.deleteByPrimaryKey(sentenceId);
     }
 
     @Override
-    public int updateSentence(Sentence sentence) {
+    public int updateSentenceById(Sentence sentence) {
         return sentenceMapper.updateByPrimaryKeySelective(sentence);
     }
 
