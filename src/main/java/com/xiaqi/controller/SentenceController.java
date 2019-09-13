@@ -36,7 +36,7 @@ public class SentenceController {
     public Message deleteSentence(int sentenceId) {
         Message message = ServerMessageFactory.generateServerMsgByType(ServerMessageFactory.StatusCode.SUCCESS);
         try {
-            sentenceService.deleteSentence(sentenceId);
+            sentenceService.deleteSentenceById(sentenceId);
             return message;
         } catch (Exception e) {
             message.setCode(ServerMessageFactory.StatusCode.SERVER_ERROR.getStatusCode());
@@ -49,7 +49,7 @@ public class SentenceController {
     public Message updateSentence(Sentence sentence) {
         Message message = ServerMessageFactory.generateServerMsgByType(ServerMessageFactory.StatusCode.SUCCESS);
         try {
-            sentenceService.updateSentence(sentence);
+            sentenceService.updateSentenceById(sentence);
             return message;
         } catch (Exception e) {
             message.setCode(ServerMessageFactory.StatusCode.SERVER_ERROR.getStatusCode());

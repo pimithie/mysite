@@ -5,6 +5,7 @@ import com.xiaqi.entity.Category;
 import java.util.List;
 
 /**
+ * 文章分类接口
  * @author xiaqi
  * @date 2019/8/27
  */

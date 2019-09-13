@@ -4,6 +4,7 @@ import com.xiaqi.bean.Message;
 import com.xiaqi.entity.User;
 
 /**
+ * 用户服务接口
  * @author xiaqi
  * @date 2019/8/6
  */
