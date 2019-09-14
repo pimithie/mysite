@@ -3,6 +3,8 @@ package com.xiaqi.service;
 import com.xiaqi.bean.Message;
 import com.xiaqi.entity.Comment;
 
+import java.util.List;
+
 /**
  * 评论服务接口
  * @author xiaqi
@@ -13,22 +15,22 @@ public interface CommentService {
     /**
      * 获取某文章的所有评论
      * @param articleId 文章id
-     * @return 服务器响应实体
+     * @return id为articleId的文章的所有评论
      */
-    Message getAllCommentsByArticleId(long articleId);
+    List<Comment> getAllCommentsByArticleId(long articleId);
 
     /**
      * 某文章新增评论
      * @param comment 新增的评论
-     * @return 服务器响应实体
+     * @return 影响行数
      */
-    Message insertComment(Comment comment);
+    int insertComment(Comment comment);
 
     /**
      * 更新评论
      * @param comment 文章id
-     * @return 服务器响应实体
+     * @return 影响行数
      */
-    Message updateComment(Comment comment);
+    int updateComment(Comment comment);
 
 }

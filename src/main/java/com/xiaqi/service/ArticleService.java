@@ -1,6 +1,9 @@
 package com.xiaqi.service;
 
 import com.xiaqi.bean.Message;
+import com.xiaqi.entity.Article;
+
+import java.util.List;
 
 
 /**
@@ -14,25 +17,25 @@ public interface ArticleService {
      * 获取所有文章
      * @return 服务器响应实体
      */
-    Message getAllArticles();
+    List<Article> getAllArticles();
 
     /**
      * 获取所有热门文章
      * @return 服务器响应实体
      */
-    Message getAllHotArticles();
+    List<Article> getAllHotArticles();
 
     /**
      * 获取所有置顶文章
      * @return 服务器响应实体
      */
-    Message getAllTopArticles();
+    List<Article> getAllTopArticles();
 
     /**
      * 获取指定分类的文章
      * @return 服务器响应实体
      */
-    Message getArticlesByCatagory(int categoryId);
+    List<Article> getArticlesByCatagory(int categoryId);
 
 
 }

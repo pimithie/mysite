@@ -1,6 +1,5 @@
 package com.xiaqi.service.impl;
 
-import com.xiaqi.bean.Message;
 import com.xiaqi.entity.User;
 import com.xiaqi.mapper.UserMapper;
 import com.xiaqi.service.UserService;
@@ -21,68 +20,23 @@ public class UserServiceImpl implements UserService {
     private UserMapper userMapper;
 
     @Override
-    public Message login(User user) {
-        Message message  = new Message();
-        try {
-            User userByUsernameAndPassword = userMapper.getUserByUsernameAndPassword(user.getUsername(), user.getPassword());
-            message.setCode(200);
-            if (null == user) {
-                message.setMessage("用户名或密码错误");
-                return message;
-            }
-            message.setMessage("登录成功");
-            return message;
-        } catch (Exception e) {
-            message.setCode(500);
-            message.setMessage("服务器错误");
-            return message;
-        }
+    public boolean login(User user) {
+        User res = userMapper.getUserByUsernameAndPassword(user.getUsername(), user.getPassword());
+        return null != res;
     }
 
     @Override
-    public Message getUserByUsername(String username) {
-        Message message  = new Message();
-        try {
-            List<User> users = userMapper.getUsersByUsername(username);
-            message.setCode(200);
-            message.setData(users);
-            message.setMessage("更新用户信息成功");
-            return message;
-        } catch (Exception e) {
-            message.setCode(500);
-            message.setMessage("服务器错误");
-            return message;
-        }
+    public User getUserByUsername(String username) {
+        return userMapper.getUsersByUsername(username).get(0);
     }
 
     @Override
-    public Message updateUserInfo(User user) {
-        Message message  = new Message();
-        try {
-            userMapper.updateByPrimaryKeySelective(user);
-            message.setCode(200);
-            message.setMessage("更新用户信息成功");
-            return message;
-        } catch (Exception e) {
-            message.setCode(500);
-            message.setMessage("服务器错误");
-            return message;
-        }
+    public int updateUserInfo(User user) {
+        return userMapper.updateByPrimaryKeySelective(user);
     }
 
     @Override
-    public Message getAllUsers() {
-        Message message  = new Message();
-        try {
-            List<User> users = userMapper.findAll();
-            message.setCode(200);
-            message.setData(users);
-            message.setMessage("更新用户信息成功");
-            return message;
-        } catch (Exception e) {
-            message.setCode(500);
-            message.setMessage("服务器错误");
-            return message;
-        }
+    public List<User> getAllUsers() {
+        return userMapper.findAll();
     }
 }

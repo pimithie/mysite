@@ -1,11 +1,12 @@
 package com.xiaqi.service.impl;
 
-import com.xiaqi.annotation.EnableCache;
-import com.xiaqi.bean.Message;
+import com.xiaqi.entity.Article;
 import com.xiaqi.mapper.ArticleMapper;
 import com.xiaqi.service.ArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * 文章服务实现类
@@ -19,62 +20,22 @@ public class ArticleServiceImpl implements ArticleService {
     private ArticleMapper articleMapper;
 
     @Override
-    public Message getAllArticles() {
-        Message message = new Message();
-        try {
-            message.setCode(200);
-            message.setMessage("查询所有文章成功");
-            message.setData(articleMapper.getAllArticles());
-            return message;
-        } catch (Exception e) {
-            message.setCode(500);
-            message.setMessage("服务器错误");
-            return message;
-        }
+    public List<Article> getAllArticles() {
+        return articleMapper.getAllArticles();
     }
 
     @Override
-    public Message getAllHotArticles() {
-        Message message = new Message();
-        try {
-            message.setCode(200);
-            message.setMessage("查询所有热门文章成功");
-            message.setData(articleMapper.getAllHotArticles());
-            return message;
-        } catch (Exception e) {
-            message.setCode(500);
-            message.setMessage("服务器错误");
-            return message;
-        }
+    public List<Article> getAllHotArticles() {
+        return articleMapper.getAllHotArticles();
     }
 
     @Override
-    public Message getAllTopArticles() {
-        Message message = new Message();
-        try {
-            message.setCode(200);
-            message.setMessage("查询所有置顶文章成功");
-            message.setData(articleMapper.getAllTopArticles());
-            return message;
-        } catch (Exception e) {
-            message.setCode(500);
-            message.setMessage("服务器错误");
-            return message;
-        }
+    public List<Article> getAllTopArticles() {
+        return articleMapper.getAllTopArticles();
     }
 
     @Override
-    public Message getArticlesByCatagory(int categoryId) {
-        Message message = new Message();
-        try {
-            message.setCode(200);
-            message.setMessage("查询所有分类id为["+categoryId+"]文章成功");
-            message.setData(articleMapper.getArticlesByCategory(categoryId));
-            return message;
-        } catch (Exception e) {
-            message.setCode(500);
-            message.setMessage("服务器错误");
-            return message;
-        }
+    public List<Article> getArticlesByCatagory(int categoryId) {
+        return articleMapper.getArticlesByCategory(categoryId);
     }
 }
