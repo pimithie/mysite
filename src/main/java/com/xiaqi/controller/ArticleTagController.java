@@ -44,7 +44,7 @@ public class ArticleTagController {
         }
     }
 
-    @RequestMapping("/removeTagWithArticle")
+    @RequestMapping("/selectAllTagsWithArticle")
     public Message selectAllTagsWithArticle(long articleId) {
         Message message = ServerMessageFactory.generateServerMsgByType(ServerMessageFactory.StatusCode.SUCCESS);
         try {
