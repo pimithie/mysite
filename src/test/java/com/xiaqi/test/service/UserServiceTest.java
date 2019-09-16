@@ -21,9 +21,9 @@ public class UserServiceTest {
 
     @Test
     public void test() {
-        Message allUsers = userService.getAllUsers();
-        System.out.println(allUsers.getData());
-        Message user = userService.getUserByUsername("admin");
-        System.out.println(user.getData());
+//        Message allUsers = userService.getAllUsers();
+//        System.out.println(allUsers.getData());
+//        Message user = userService.getUserByUsername("admin");
+//        System.out.println(user.getData());
     }
 }

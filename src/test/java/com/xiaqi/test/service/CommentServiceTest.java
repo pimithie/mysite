@@ -24,8 +24,8 @@ public class CommentServiceTest {
 
     @Test
     public void testGetAllCommentsByArticleId() {
-        Message message = commentService.getAllCommentsByArticleId(1);
-        System.out.println(message);
+//        Message message = commentService.getAllCommentsByArticleId(1);
+//        System.out.println(message);
     }
 
     @Test
